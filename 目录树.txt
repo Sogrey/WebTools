@@ -1,0 +1,38 @@
+卷 文档 的文件夹 PATH 列表
+卷序列号为 0007-D68A
+E:.
+│  .gitignore
+│  index.html
+│  list.bat
+│  README.md
+│  目录树.txt
+│  
+└─www
+    │  gulpfile.js
+    │  
+    ├─dist
+    │      
+    ├─js
+    │  ├─bootstrap
+    │  │          
+    │  ├─dist
+    │  │  ├─css
+    │  │  │          
+    │  │  ├─img
+    │  │  │          
+    │  │  └─js
+    │  │              
+    │  └─plugins
+    │              
+    └─src
+        │  index.html
+        │  test.html
+        │  
+        └─include
+                _control-sidebar.html
+                _css.html
+                _footer.html
+                _header.html
+                _js.html
+                _main_sidebar.html
+                
