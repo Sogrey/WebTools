@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var fileinclude  = require('gulp-file-include');
+var fileinclude  = require('www');
 
 gulp.task('fileinclude', function() {
     gulp.src('src/**.html')
