@@ -2,8 +2,6 @@
 Web开发常用工具
 
 
-https://segmentfault.com/a/1190000003043326
-
 目录树：
 
 	E:.
@@ -14,7 +12,7 @@ https://segmentfault.com/a/1190000003043326
 	│  目录树.txt
 	└─gulp-file-include
 	    │  gulpfile.js
-	    ├─dist
+	    ├─dist  // 编辑后的 html 文件
 	    ├─js
 	    │  ├─bootstrap
 	    │  ├─dist
@@ -22,23 +20,16 @@ https://segmentfault.com/a/1190000003043326
 	    │  │  ├─img
 	    │  │  └─js 
 	    │  └─plugins
-	    └─src
+	    └─src // 生产环境的 html 存放文件夹
 	        │  index.html
 	        │  test.html
-	        └─include
+	        └─include  // 公共部分的 html 存放文件夹
 	                _control-sidebar.html
 	                _css.html
 	                _footer.html
 	                _header.html
 	                _js.html
 	                _main_sidebar.html
-
-其中：
-
-	src // 生产环境的 html 存放文件夹
-	include // 公共部分的 html 存放文件夹
-	dist // 编辑后的 html 文件
-
 
 
 需要先安装`gulp`以及`gulp-file-include`
@@ -59,3 +50,8 @@ https://segmentfault.com/a/1190000003043326
 引入HTML片段用：
 
 	@@include('include/header.html')
+
+
+### 参考：
+
+https://segmentfault.com/a/1190000003043326
