@@ -46,8 +46,12 @@ Web开发常用工具
 
 编译合并html文件，执行命令 `gulp fileinclude`，编辑生成`dist`目录下文件。
 
+### 使用批处理命令
 
-引入HTML片段用：
+嫌以上输入命令不好记，不怕，有批处理命令直接用，双击 `auto.bat` ,按步一步一步自动构建环境，并在 `gulp-file-includ` 目录下自动生成 `clickMe.bat` 双击此命令文件自动合并，保存到`dist`目录下。
+
+
+引入HTML片段用类似于：
 
 	@@include('include/header.html')
 
