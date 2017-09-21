@@ -2,32 +2,27 @@
 卷序列号为 0007-D68A
 E:.
 │  .gitignore
+│  auto.bat
 │  index.html
 │  list.bat
 │  README.md
 │  目录树.txt
 │  
-└─www
+└─gulp-file-include
     │  gulpfile.js
-    │  
     ├─dist
-    │      
+    │      index.html
+    │      模板.html
     ├─js
     │  ├─bootstrap
-    │  │          
-    │  ├─dist
     │  │  ├─css
-    │  │  │          
-    │  │  ├─img
-    │  │  │          
+    │  │  ├─fonts
     │  │  └─js
-    │  │              
-    │  └─plugins
-    │              
+    │  ├─dist
+    │  └─plugins          
     └─src
         │  index.html
-        │  test.html
-        │  
+        │  模板.html
         └─include
                 _control-sidebar.html
                 _css.html
