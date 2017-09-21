@@ -1,7 +1,7 @@
 @echo off
 echo 按步自动部署 gulp以及gulp-file-include 环境
 echo author Sogrey[https://github.com/Sogrey]
-echo 注意：最好等上一部执行完毕再执行下一步
+echo 注意：最好等上一步执行完毕再执行下一步
 echo --
 echo --
 echo (1/4)按任意键后执行：npm install -g gulp
