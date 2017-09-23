@@ -1,36 +1,37 @@
 # WebTools
+
 Web开发常用工具
 
 [![](https://img.shields.io/badge/node-8.1.4-blue.svg)](https://nodejs.org/en/)
 [![](https://img.shields.io/badge/npm-5.0.3-blue.svg)](https://www.npmjs.com/)
 [![](https://img.shields.io/badge/gulp-3.9.1-blue.svg)](https://gulpjs.com/)
-[![](https://img.shields.io/badge/build-gulp--file--include-green.svg)](https://www.npmjs.com/package/gulp-file-include)
-[![](https://img.shields.io/badge/basedOn-AdminLTE-00C0EF.svg)](https://www.npmjs.com/package/gulp-file-include)
+[![](https://img.shields.io/badge/build-gulp--file--include-green.svg)](https://www.npmjs.com/package/gulp-file-include "使用gulp-file-include合并HTML文件")
+[![](https://img.shields.io/badge/basedOn-AdminLTE-00C0EF.svg)](https://adminlte.io/)
 [![](https://img.shields.io/badge/author-Sogrey-ff69b4.svg)](https://github.com/Sogrey/)
-[![](https://img.shields.io/badge/complete-2%25-f46464.svg)](https://github.com/Sogrey/WebTools/#)
+[![](https://img.shields.io/badge/complete-2%25-f46464.svg)](https://github.com/Sogrey/WebTools/# "刚刚开始还有很多内容待添加")
 
 目录树：
 
-	E:.
+    E:.
 	│  .gitignore
 	│  index.html
 	│  list.bat
 	│  README.md
 	│  目录树.txt
-	└─gulp-file-include
+	└─ gulp-file-include
 	    │  gulpfile.js
-	    ├─dist  // 编辑后的 html 文件
-	    ├─js
-	    │  ├─bootstrap
-	    │  ├─dist
+	    ├─ dist  // 编辑后的 html 文件
+	    ├─ js
+	    │  ├─ bootstrap
+	    │  ├─ dist
 	    │  │  ├─css
 	    │  │  ├─img
-	    │  │  └─js 
-	    │  └─plugins
-	    └─src // 生产环境的 html 存放文件夹
+	    │  │  └─ js 
+	    │  └─ plugins
+	    └─ src // 生产环境的 html 存放文件夹
 	        │  index.html
 	        │  test.html
-	        └─include  // 公共部分的 html 存放文件夹
+	        └─ include  // 公共部分的 html 存放文件夹
 	                _control-sidebar.html
 	                _css.html
 	                _footer.html
@@ -57,12 +58,10 @@ Web开发常用工具
 
 嫌以上输入命令不好记，不怕，有批处理命令直接用，双击 `auto.bat` ,按步一步一步自动构建环境，并在 `gulp-file-includ` 目录下自动生成 `clickMe.bat` 双击此命令文件自动合并，保存到`dist`目录下。
 
-
 引入HTML片段用类似于：
 
-	@@include('include/header.html')
-
+    @@include('include/header.html')
 
 ### 参考：
 
-https://segmentfault.com/a/1190000003043326
+* https://segmentfault.com/a/1190000003043326
